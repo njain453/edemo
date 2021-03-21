@@ -3,6 +3,7 @@ package com.ecommerce.sample.controller;
 
 import java.util.List;
 
+import com.ecommerce.sample.service.DressesImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -48,24 +49,5 @@ public class FrontControler {
         model.addAttribute("myitem",myitem);
     	return "mycart";
     }
-    
-    
-    
-    
-    /*
-     * Dressess - Dresssess page - > dressess optoin 
-     * same for footwear
-     * 
-     * appplication.propertiers: configure so we dont have to provide prefix and postfix. 
-     * 
-     * trial basis:  server to client and client to server 
-     * 
-     * click on dress ==> you have choose this dress etc.. same message. .
-     * 
-     * 
-     * 
-     */
-	  
-	
 
 }

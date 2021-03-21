@@ -1,4 +1,7 @@
-package com.ecommerce.sample.controller;
+package com.ecommerce.sample.service;
+
+import com.ecommerce.sample.model.Dresses;
+import com.ecommerce.sample.model.Footwears;
 
 import java.util.List;
 

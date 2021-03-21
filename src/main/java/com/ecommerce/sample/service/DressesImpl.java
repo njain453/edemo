@@ -1,12 +1,14 @@
-package com.ecommerce.sample.controller;
+package com.ecommerce.sample.service;
 
 import java.util.ArrayList;
 import java.util.List;
 
+import com.ecommerce.sample.model.Dresses;
+import com.ecommerce.sample.model.Footwears;
 import org.springframework.stereotype.Service;
 
 @Service
-public class DressesImpl implements IDresses{
+public class DressesImpl implements IDresses {
 	
 	private List<Dresses> dresses ;
 	private List<Footwears> footwears ;

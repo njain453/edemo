@@ -1,4 +1,4 @@
-package com.ecommerce.sample.controller;
+package com.ecommerce.sample.model;
 
 public class Dresses {
 	
